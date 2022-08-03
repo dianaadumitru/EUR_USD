@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="filename">rate.log</Property>
+        <Property name="filenamePattern">log/catalog-%i.log</Property>
+        <Property name="pattern">%d{ISO8601} %-5p [%t]: %-36.36c{1} - %m %n
+        </Property>
+    </Properties>
+</Configuration>
